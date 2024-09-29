@@ -4,16 +4,16 @@ I think it's obvious enough if you look at the filenames. If you're out of the l
 ## Installation
 ### Windows
 Open Terminal (or Powershell if on Windows 10 or older) and execute the following commands:
-1. `git clone https://github.com/EricQXu/scrapeWalls`
-2. `cd ./scrapeWalls`
+1. `git clone https://github.com/EricQXu/scrapeWalls` (or alternatively download scrapeMkbhdWallpapers.ps1 from the [releases page](https://github.com/EricQXu/scrapeWalls/releases/latest))
+2. `cd ./scrapeWalls` (skip if you did the alternate step for step 1)
 3. `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
 4. `./scrapeMkbhdWallpapers.ps1`
 5. `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ### Linux and macOS
  Open Terminal (or any terminal emulator of your choice) and execute the following commands:
- 1. `git clone https://github.com/EricQXu/scrapeWalls`
- 2. `./scrapeWalls`
+ 1. `git clone https://github.com/EricQXu/scrapeWalls` (or alternatively download scrapeMkbhdWallpapers.sh from the [releases page](https://github.com/EricQXu/scrapeWalls/releases/latest))
+ 2. `./scrapeWalls` (skip if you did the alternate step for step 1)
  3. `which bash`
  4. `cat scrapeMkbhdWallpapers.sh`
  5. Check if the first shebang line after #! matches your bash directory in step 3. If not, open scrapeMkbhdWallpapers.sh and edit it to match what was shown in step 3, then save it.
